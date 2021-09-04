@@ -1,0 +1,27 @@
+[{
+  "path": "all",
+  "input": {
+    "title": {
+      "selector": "#activity-name",
+      "type": "text"
+    }, 
+    "source": {
+      "selector": "#js_name",
+      "type": "text"
+    },
+    "author": {
+      "selector": ".rich_media_meta_text",
+      "type": "text"
+    },
+    "content": {
+      "selector": "#js_content",
+      "type": "html"
+    }
+  },
+  "output": {
+    "title": "raw",
+    "source": "raw",
+    "author": "raw",
+    "content": "raw"
+  }
+}]
