@@ -17,7 +17,7 @@
   "output": {
     "title": "raw",
     "source": "raw",
-    "author": "{{ content | strip_html | match: '（记者：(.*)）' }}",
+    "author": "{{ content | strip_html | match: '（\u8bb0\u8005：(.*)）' }}",
     "content": "raw"
   }
 }]
